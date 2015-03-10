@@ -1,0 +1,255 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion',
+5 verbose install   [ 'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'ejs',
+5 verbose install     'express',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'q',
+5 verbose install     'async',
+5 verbose install     'mongoose' ] ]
+6 info preinstall ToDoApp-HTMLversion@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'q@latest', null ]
+9 verbose cache add name=undefined spec="q@latest" args=["q@latest",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'q@latest',
+10 verbose parsed url   path: 'q@latest',
+10 verbose parsed url   href: 'q@latest' }
+11 verbose cache add [ 'async@latest', null ]
+12 verbose cache add name=undefined spec="async@latest" args=["async@latest",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'async@latest',
+13 verbose parsed url   path: 'async@latest',
+13 verbose parsed url   href: 'async@latest' }
+14 verbose cache add [ 'mongoose@latest', null ]
+15 verbose cache add name=undefined spec="mongoose@latest" args=["mongoose@latest",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'mongoose@latest',
+16 verbose parsed url   path: 'mongoose@latest',
+16 verbose parsed url   href: 'mongoose@latest' }
+17 verbose already installed skipping body-parser@~1.12.0 /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+18 verbose cache add name="q" spec="latest" args=["q","latest"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'latest',
+19 verbose parsed url   path: 'latest',
+19 verbose parsed url   href: 'latest' }
+20 verbose addNamed [ 'q', 'latest' ]
+21 verbose addNamed [ null, null ]
+22 verbose cache add name="async" spec="latest" args=["async","latest"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'latest',
+23 verbose parsed url   path: 'latest',
+23 verbose parsed url   href: 'latest' }
+24 verbose addNamed [ 'async', 'latest' ]
+25 verbose addNamed [ null, null ]
+26 verbose cache add name="mongoose" spec="latest" args=["mongoose","latest"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'latest',
+27 verbose parsed url   path: 'latest',
+27 verbose parsed url   href: 'latest' }
+28 verbose addNamed [ 'mongoose', 'latest' ]
+29 verbose addNamed [ null, null ]
+30 silly lockFile 9861255a-q-latest q@latest
+31 verbose lock q@latest /Users/wajihakanwal/.npm/9861255a-q-latest.lock
+32 silly lockFile 0c7fb7b0-async-latest async@latest
+33 verbose lock async@latest /Users/wajihakanwal/.npm/0c7fb7b0-async-latest.lock
+34 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+35 verbose lock mongoose@latest /Users/wajihakanwal/.npm/73e949f4-mongoose-latest.lock
+36 verbose already installed skipping cookie-parser@~1.3.4 /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+37 verbose already installed skipping debug@~2.1.1 /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+38 verbose already installed skipping ejs@~2.3.1 /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+39 info addNameTag [ 'q', 'latest' ]
+40 info addNameTag [ 'async', 'latest' ]
+41 verbose already installed skipping express@~4.12.0 /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+42 verbose already installed skipping morgan@~1.5.1 /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+43 verbose already installed skipping serve-favicon@~2.2.0 /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+44 info addNameTag [ 'mongoose', 'latest' ]
+45 verbose request where is /q
+46 verbose request registry https://registry.npmjs.org/
+47 verbose request id 306fb1fe046a0339
+48 verbose url raw /q
+49 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+50 verbose url resolved https://registry.npmjs.org/q
+51 verbose request where is https://registry.npmjs.org/q
+52 info trying registry request attempt 1 at 00:43:34
+53 verbose etag "D2IG0HIMM1NEP3LMZFGOP6KPZ"
+54 http GET https://registry.npmjs.org/q
+55 verbose request where is /mongoose
+56 verbose request registry https://registry.npmjs.org/
+57 verbose url raw /mongoose
+58 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+59 verbose url resolved https://registry.npmjs.org/mongoose
+60 verbose request where is https://registry.npmjs.org/mongoose
+61 info trying registry request attempt 1 at 00:43:34
+62 verbose etag "5VJCFOMQ9LDI6IGGTQX6MZT6E"
+63 http GET https://registry.npmjs.org/mongoose
+64 verbose request where is /async
+65 verbose request registry https://registry.npmjs.org/
+66 verbose url raw /async
+67 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+68 verbose url resolved https://registry.npmjs.org/async
+69 verbose request where is https://registry.npmjs.org/async
+70 info trying registry request attempt 1 at 00:43:34
+71 verbose etag "ANRKGK8Q9ME8C0IS2PDY41YUB"
+72 http GET https://registry.npmjs.org/async
+73 http 304 https://registry.npmjs.org/async
+74 silly registry.get cb [ 304,
+74 silly registry.get   { date: 'Sat, 07 Mar 2015 19:43:35 GMT',
+74 silly registry.get     server: 'Apache',
+74 silly registry.get     via: '1.1 varnish',
+74 silly registry.get     'last-modified': 'Sat, 07 Mar 2015 19:43:26 GMT',
+74 silly registry.get     'cache-control': 'max-age=60',
+74 silly registry.get     etag: '"ANRKGK8Q9ME8C0IS2PDY41YUB"',
+74 silly registry.get     age: '13',
+74 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+74 silly registry.get     'x-cache': 'HIT',
+74 silly registry.get     'x-cache-hits': '2',
+74 silly registry.get     'x-timer': 'S1425757415.346245,VS0,VE0',
+74 silly registry.get     vary: 'Accept',
+74 silly registry.get     'content-length': '0',
+74 silly registry.get     'keep-alive': 'timeout=10, max=50',
+74 silly registry.get     connection: 'Keep-Alive' } ]
+75 verbose etag https://registry.npmjs.org/async from cache
+76 verbose addNamed [ 'async', '0.9.0' ]
+77 verbose addNamed [ '0.9.0', '0.9.0' ]
+78 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+79 verbose lock async@0.9.0 /Users/wajihakanwal/.npm/9a58a886-async-0-9-0.lock
+80 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+81 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+82 silly lockFile 0c7fb7b0-async-latest async@latest
+83 silly lockFile 0c7fb7b0-async-latest async@latest
+84 http 304 https://registry.npmjs.org/mongoose
+85 silly registry.get cb [ 304,
+85 silly registry.get   { date: 'Sat, 07 Mar 2015 19:43:35 GMT',
+85 silly registry.get     server: 'Apache',
+85 silly registry.get     via: '1.1 varnish',
+85 silly registry.get     'last-modified': 'Sat, 07 Mar 2015 19:43:35 GMT',
+85 silly registry.get     'cache-control': 'max-age=60',
+85 silly registry.get     etag: '"5VJCFOMQ9LDI6IGGTQX6MZT6E"',
+85 silly registry.get     age: '59',
+85 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+85 silly registry.get     'x-cache': 'HIT',
+85 silly registry.get     'x-cache-hits': '1',
+85 silly registry.get     'x-timer': 'S1425757415.384140,VS0,VE1',
+85 silly registry.get     vary: 'Accept',
+85 silly registry.get     'content-length': '0',
+85 silly registry.get     'keep-alive': 'timeout=10, max=50',
+85 silly registry.get     connection: 'Keep-Alive' } ]
+86 verbose etag https://registry.npmjs.org/mongoose from cache
+87 verbose addNamed [ 'mongoose', '3.8.24' ]
+88 verbose addNamed [ '3.8.24', '3.8.24' ]
+89 silly lockFile 867b942d-mongoose-3-8-24 mongoose@3.8.24
+90 verbose lock mongoose@3.8.24 /Users/wajihakanwal/.npm/867b942d-mongoose-3-8-24.lock
+91 silly lockFile 867b942d-mongoose-3-8-24 mongoose@3.8.24
+92 silly lockFile 867b942d-mongoose-3-8-24 mongoose@3.8.24
+93 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+94 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+95 info already installed mongoose@3.8.24
+96 http 304 https://registry.npmjs.org/q
+97 silly registry.get cb [ 304,
+97 silly registry.get   { date: 'Sat, 07 Mar 2015 19:43:35 GMT',
+97 silly registry.get     server: 'Apache',
+97 silly registry.get     via: '1.1 varnish',
+97 silly registry.get     'last-modified': 'Sat, 07 Mar 2015 19:43:35 GMT',
+97 silly registry.get     'cache-control': 'max-age=60',
+97 silly registry.get     etag: '"D2IG0HIMM1NEP3LMZFGOP6KPZ"',
+97 silly registry.get     age: '3',
+97 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+97 silly registry.get     'x-cache': 'HIT',
+97 silly registry.get     'x-cache-hits': '1',
+97 silly registry.get     'x-timer': 'S1425757415.585485,VS0,VE0',
+97 silly registry.get     vary: 'Accept',
+97 silly registry.get     'content-length': '0',
+97 silly registry.get     'keep-alive': 'timeout=10, max=50',
+97 silly registry.get     connection: 'Keep-Alive' } ]
+98 verbose etag https://registry.npmjs.org/q from cache
+99 verbose addNamed [ 'q', '1.2.0' ]
+100 verbose addNamed [ '1.2.0', '1.2.0' ]
+101 silly lockFile 0069ac1d-q-1-2-0 q@1.2.0
+102 verbose lock q@1.2.0 /Users/wajihakanwal/.npm/0069ac1d-q-1-2-0.lock
+103 silly lockFile a55c401a-registry-npmjs-org-q-q-1-2-0-tgz https://registry.npmjs.org/q/-/q-1.2.0.tgz
+104 verbose lock https://registry.npmjs.org/q/-/q-1.2.0.tgz /Users/wajihakanwal/.npm/a55c401a-registry-npmjs-org-q-q-1-2-0-tgz.lock
+105 verbose addRemoteTarball [ 'https://registry.npmjs.org/q/-/q-1.2.0.tgz',
+105 verbose addRemoteTarball   '811705ce4a9802adff811ab0fcdbd01946e1fe22' ]
+106 info retry fetch attempt 1 at 00:43:35
+107 verbose fetch to= /var/folders/7v/dbk3nxzd4rj6vx6dvhllxflm0000gn/T/npm-1322-fRs4K0ZP/registry.npmjs.org/q/-/q-1.2.0.tgz
+108 http GET https://registry.npmjs.org/q/-/q-1.2.0.tgz
+109 http 200 https://registry.npmjs.org/q/-/q-1.2.0.tgz
+110 silly lockFile a55c401a-registry-npmjs-org-q-q-1-2-0-tgz https://registry.npmjs.org/q/-/q-1.2.0.tgz
+111 silly lockFile a55c401a-registry-npmjs-org-q-q-1-2-0-tgz https://registry.npmjs.org/q/-/q-1.2.0.tgz
+112 silly lockFile 0069ac1d-q-1-2-0 q@1.2.0
+113 silly lockFile 0069ac1d-q-1-2-0 q@1.2.0
+114 silly lockFile 9861255a-q-latest q@latest
+115 silly lockFile 9861255a-q-latest q@latest
+116 error Error: EACCES, mkdir '/Users/wajihakanwal/.npm/q/1.2.0'
+116 error  { [Error: EACCES, mkdir '/Users/wajihakanwal/.npm/q/1.2.0']
+116 error   errno: 3,
+116 error   code: 'EACCES',
+116 error   path: '/Users/wajihakanwal/.npm/q/1.2.0',
+116 error   parent: 'ToDoApp-HTMLversion' }
+117 error Please try running this command again as root/Administrator.
+118 error System Darwin 14.1.0
+119 error command "node" "/usr/local/bin/npm" "install"
+120 error cwd /Users/wajihakanwal/Documents/Apps/ToDoApp-HTMLversion
+121 error node -v v0.10.33
+122 error npm -v 1.4.28
+123 error path /Users/wajihakanwal/.npm/q/1.2.0
+124 error code EACCES
+125 error errno 3
+126 error stack Error: EACCES, mkdir '/Users/wajihakanwal/.npm/q/1.2.0'
+127 verbose exit [ 3, true ]
